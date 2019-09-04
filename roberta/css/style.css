@@ -1,0 +1,34 @@
+/*
+ Theme Name:  roberta
+ Description:  Child Theme for Divifor Roberta Kuriloff
+
+ Template:     Divi
+ Version:      1.0.0
+*/
+/*****Add any custom CSS below this line*****/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* basic css stuff */
+#footer-bottom .et-social-icons li.reach-logo a {
+  font-size: 1em; }
+#footer-bottom .et-social-icons li.reach-logo a:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 4px; }
+
+/* **** media **** */
+@media all and (max-width: 980px) {
+  .reach-row-stackorder {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    flex-wrap: wrap; }
+    .reach-row-stackorder .reach-second-at-mobile {
+      -webkit-order: 2;
+      order: 2; }
+    .reach-row-stackorder .reach-first-on-mobile {
+      -webkit-order: 1;
+      order: 1; } }

@@ -1,0 +1,28 @@
+/*
+ Theme Name:  roberta
+ Description:  Child Theme for Divifor Roberta Kuriloff
+
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+/*****Add any custom CSS below this line*****/
+
+@import "partials/colors";
+@import "partials/basics";
+
+
+
+#footer-bottom { // if show social icon in footer is on, reach will show
+  .et-social-icons {
+    li.reach-logo a {
+      //  color: white;
+      font-size: 1em;
+      }
+    li.reach-logo a:before {
+        content: url('images/reach-favicon.png');
+        padding-right: 4px;
+    }
+  }
+}
+@import "partials/media"; // keep at bottom;
