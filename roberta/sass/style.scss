@@ -11,7 +11,22 @@
 @import "partials/colors";
 @import "partials/basics";
 
-
+#top-header {
+  background-image: url("./images/gradient-bar-home-top.jpg");
+  height: 80px;
+}
+#main-header {
+  top: 80px;
+  border-top: 3px solid $rk-mustard;
+  border-bottom: 3px solid $rk-mustard;
+  background-color: $rk-cream-bkg;
+  .logo_container {
+    //height: 60px;
+  }
+}
+#main-content {
+  background-color: $rk-cream-bkg;
+}
 
 #footer-bottom { // if show social icon in footer is on, reach will show
   .et-social-icons {

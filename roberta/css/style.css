@@ -9,6 +9,19 @@
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* basic css stuff */
+#top-header {
+  background-image: url("./images/gradient-bar-home-top.jpg");
+  height: 80px; }
+
+#main-header {
+  top: 80px;
+  border-top: 3px solid #b4975a;
+  border-bottom: 3px solid #b4975a;
+  background-color: #f3f0e6; }
+
+#main-content {
+  background-color: #f3f0e6; }
+
 #footer-bottom .et-social-icons li.reach-logo a {
   font-size: 1em; }
 #footer-bottom .et-social-icons li.reach-logo a:before {
