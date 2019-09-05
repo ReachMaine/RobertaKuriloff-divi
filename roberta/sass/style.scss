@@ -13,15 +13,26 @@
 
 #top-header {
   background-image: url("./images/gradient-bar-home-top.jpg");
-  height: 80px;
+  background-size: cover;
+  height: $top-header-height;
+  z-index: auto;
 }
 #main-header {
   top: 80px;
   border-top: 3px solid $rk-mustard;
   border-bottom: 3px solid $rk-mustard;
   background-color: $rk-cream-bkg;
+  .header-overlay {
+    display: inline-block;
+    float: left;
+    height: 0px;
+    margin-top: -$top-header-overlay-adjust;
+    img {
+      max-height: 300px;
+    }
+  }
   .logo_container {
-    //height: 60px;
+    background-color: $rk-cream-bkg;
   }
 }
 #main-content {

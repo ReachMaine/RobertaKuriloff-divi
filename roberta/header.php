@@ -58,7 +58,6 @@
 	<?php if ( $et_top_info_defined && ! $et_slide_header || is_customize_preview() ) : ?>
 		<?php ob_start(); ?>
 		<div id="top-header"<?php echo $et_top_info_defined ? '' : 'style="display: none;"'; ?>>
-			<?php get_template_part( 'includes/header-overlay', 'header' ); /* zig */ ?>
 			<div class="container clearfix">
 
 			<?php if ( $et_contact_info_defined ) : ?>
@@ -229,6 +228,7 @@
 
 	<?php ob_start(); ?>
 		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
+			<?php get_template_part( 'includes/header-overlay', 'header' ); /* zig */ ?>
 			<div class="container clearfix et_menu_container">
 			<?php
 				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )

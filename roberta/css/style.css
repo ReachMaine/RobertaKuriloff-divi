@@ -11,13 +11,24 @@
 /* basic css stuff */
 #top-header {
   background-image: url("./images/gradient-bar-home-top.jpg");
-  height: 80px; }
+  background-size: cover;
+  height: 80px;
+  z-index: auto; }
 
 #main-header {
   top: 80px;
   border-top: 3px solid #b4975a;
   border-bottom: 3px solid #b4975a;
   background-color: #f3f0e6; }
+  #main-header .header-overlay {
+    display: inline-block;
+    float: left;
+    height: 0px;
+    margin-top: -82px; }
+    #main-header .header-overlay img {
+      max-height: 300px; }
+  #main-header .logo_container {
+    background-color: #f3f0e6; }
 
 #main-content {
   background-color: #f3f0e6; }
