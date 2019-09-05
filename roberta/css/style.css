@@ -16,9 +16,8 @@
   z-index: auto; }
 
 #main-header {
-  top: 80px;
-  border-top: 3px solid #b4975a;
-  border-bottom: 3px solid #b4975a;
+  border-top: 2px solid #b4975a;
+  border-bottom: 2px solid #b4975a;
   background-color: #f3f0e6; }
   #main-header .header-overlay {
     display: inline-block;
@@ -30,8 +29,10 @@
   #main-header .logo_container {
     background-color: #f3f0e6; }
 
+.page.et_pb_pagebuilder_layout #main-content,
+.page.et_pb_pagebuilder_layout #main-content #et-boc,
 #main-content {
-  background-color: #f3f0e6; }
+  background-color: #f3f0e6 !important; }
 
 #footer-bottom .et-social-icons li.reach-logo a {
   font-size: 1em; }
@@ -39,6 +40,17 @@
   content: url("images/reach-favicon.png");
   padding-right: 4px; }
 
+/* styling for blog posts */
+@media only screen and (min-width: 981px) {
+  .et_pb_posts .et_pb_post img,
+  .et_pb_posts .et_overlay {
+    width: 600px;
+    float: left;
+    left: 0;
+    margin-right: 25px; }
+
+  .et_pb_posts a.more-link {
+    clear: none !important; } }
 /* **** media **** */
 @media all and (max-width: 980px) {
   .reach-row-stackorder {

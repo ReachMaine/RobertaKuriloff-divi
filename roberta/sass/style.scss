@@ -11,6 +11,7 @@
 @import "partials/colors";
 @import "partials/basics";
 
+
 #top-header {
   background-image: url("./images/gradient-bar-home-top.jpg");
   background-size: cover;
@@ -18,9 +19,9 @@
   z-index: auto;
 }
 #main-header {
-  top: 80px;
-  border-top: 3px solid $rk-mustard;
-  border-bottom: 3px solid $rk-mustard;
+  //top: 80px; // for sticky menu
+  border-top: 2px solid $rk-mustard;
+  border-bottom: 2px solid $rk-mustard;
   background-color: $rk-cream-bkg;
   .header-overlay {
     display: inline-block;
@@ -35,8 +36,10 @@
     background-color: $rk-cream-bkg;
   }
 }
+.page.et_pb_pagebuilder_layout #main-content,
+.page.et_pb_pagebuilder_layout #main-content #et-boc,
 #main-content {
-  background-color: $rk-cream-bkg;
+  background-color: $rk-cream-bkg!important;
 }
 
 #footer-bottom { // if show social icon in footer is on, reach will show
@@ -51,4 +54,5 @@
     }
   }
 }
+@import "partials/blog";
 @import "partials/media"; // keep at bottom;
