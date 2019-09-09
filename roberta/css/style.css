@@ -42,15 +42,21 @@
 
 /* styling for blog posts */
 @media only screen and (min-width: 981px) {
+  .single-post .et_pb_post .et_post_meta_wrapper img,
+  .archive .et_pb_post img,
   .et_pb_posts .et_pb_post img,
   .et_pb_posts .et_overlay {
-    width: 600px;
+    max-width: 600px;
+    width: 60%;
     float: left;
     left: 0;
     margin-right: 25px; }
 
   .et_pb_posts a.more-link {
-    clear: none !important; } }
+    clear: none !important; }
+
+  .single-post .et_pb_post .entry-content {
+    padding-top: 0px; } }
 /* **** media **** */
 @media all and (max-width: 980px) {
   .reach-row-stackorder {
