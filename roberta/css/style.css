@@ -26,8 +26,16 @@
     margin-top: -82px; }
     #main-header .header-overlay img {
       max-height: 300px; }
-  #main-header .logo_container {
-    background-color: #f3f0e6; }
+  #main-header .et_menu_container .logo_container #logo {
+    background-color: #f3f0e6;
+    height: 28px; }
+  #main-header .et_menu_container #et-top-navigation #top-menu-nav ul#top-menu ul.sub-menu li {
+    padding-right: 0px;
+    padding-left: 0px; }
+  #main-header .et_menu_container #et-top-navigation #top-menu-nav li.rk-book-title a,
+  #main-header .et_menu_container #et-top-navigation #et_mobile_nav_menu li.rk-book-title a {
+    text-decoration: underline;
+    text-transform: none; }
 
 .page.et_pb_pagebuilder_layout #main-content,
 .page.et_pb_pagebuilder_layout #main-content #et-boc,
@@ -73,4 +81,7 @@
       order: 2; }
     .reach-row-stackorder .reach-first-on-mobile {
       -webkit-order: 1;
-      order: 1; } }
+      order: 1; }
+
+  #main-header #logo {
+    max-width: 80%; } }

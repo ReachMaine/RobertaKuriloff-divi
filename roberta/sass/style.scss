@@ -32,9 +32,37 @@
       max-height: 300px;
     }
   }
-  .logo_container {
-    background-color: $rk-cream-bkg;
-  }
+  .et_menu_container {
+    .logo_container {
+      //background-color: $rk-cream-bkg;
+      #logo { // image
+        background-color: $rk-cream-bkg;
+        height: 28px; // prevent shifting of logo height
+      }
+    }// $logo_container
+    #et-top-navigation {
+      #top-menu-nav ul#top-menu {
+        ul.sub-menu {
+          //width: 180px;
+          li {
+            padding-right: 0px;
+            padding-left: 0px;
+          }
+
+        }
+      } // top-menu
+      // both mobile & desktop top navs
+      #top-menu-nav,
+      #et_mobile_nav_menu {
+        li.rk-book-title a {
+            text-decoration: underline;
+            text-transform: none;
+        }
+      }
+
+  } // top-nav
+
+  } //et_menu_container
 }
 .page.et_pb_pagebuilder_layout #main-content,
 .page.et_pb_pagebuilder_layout #main-content #et-boc,

@@ -3,6 +3,7 @@
 // mobile menu shows at max-width:
 
 @media all and (max-width: 980px) { // nav menu,  woo & footer widgtes
+
   .reach-row-stackorder {
 		display: -webkit-box;
 		display: -moz-box;
@@ -20,6 +21,11 @@
 			order: 1;
 		}
 	}
+  #main-header {
+    #logo {
+      max-width: 80%;
+    }
+  }
 }
 @media only screen and (max-width: 960px) {
 
