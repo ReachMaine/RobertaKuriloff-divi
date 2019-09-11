@@ -68,7 +68,11 @@
 .page.et_pb_pagebuilder_layout #main-content #et-boc,
 #main-content {
   background-color: $rk-cream-bkg!important;
+  .et_pb_widget_area_left {
+    border-right: 0px;
+  }
 }
+
 
 #footer-bottom { // if show social icon in footer is on, reach will show
   .et-social-icons {
@@ -83,4 +87,5 @@
   }
 }
 @import "partials/blog";
+@import "partials/gform";
 @import "partials/media"; // keep at bottom;
