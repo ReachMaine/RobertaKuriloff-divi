@@ -1,5 +1,8 @@
 /* gravity forms styling */
 .gform_wrapper {
+	.gfield.hide-label label {
+		display: none;
+	}
 	.gform_footer {
 		text-align: center;
 		input[type=submit] { //  Submit  look like buttons on the site.

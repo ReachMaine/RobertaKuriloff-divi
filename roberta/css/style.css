@@ -70,6 +70,8 @@
   .single-post .et_pb_post .entry-content {
     padding-top: 0px; } }
 /* gravity forms styling */
+.gform_wrapper .gfield.hide-label label {
+  display: none; }
 .gform_wrapper .gform_footer {
   text-align: center; }
   .gform_wrapper .gform_footer input[type=submit] {
