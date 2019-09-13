@@ -16,6 +16,11 @@
     margin-left: -130px;
   }
 }
+@media all and (min-width: 981px) {
+  #main-content .container:before {
+    background-color: rgba(178, 178, 178, 0.7);
+  }
+}
 
 @media all and (max-width: 980px) { // nav menu,  woo & footer widgtes
 

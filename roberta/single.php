@@ -12,7 +12,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 	<?php if ( in_category('thinking-aloud') ){
 			echo do_shortcode('[et_pb_section global_module="739"][/et_pb_section]');
 		} else {
-			echo do_shortcode('[et_pb_section global_module="855"][/et_pb_section]');
+			echo do_shortcode('[et_pb_section global_module="992"][/et_pb_section]');
 		}?>
 	<?php
 		if ( et_builder_is_product_tour_enabled() ):

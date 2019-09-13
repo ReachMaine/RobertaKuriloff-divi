@@ -17,6 +17,12 @@
   background-size: cover;
   height: $top-header-height;
   z-index: auto;
+  .et-social-icons {
+    margin-top: 10px;
+    .et-social-icon a  {
+      font-size: 22px;
+    }
+  }
 }
 #main-header {
   //top: 80px; // for sticky menu
@@ -73,16 +79,25 @@
   }
 }
 
-
-#footer-bottom { // if show social icon in footer is on, reach will show
-  .et-social-icons {
-    li.reach-logo a {
-      //  color: white;
-      font-size: 1em;
-      }
-    li.reach-logo a:before {
+#main-footer {
+  #et-footer-nav {
+    .bottom-nav {
+      text-align: center;
+    }
+  }
+}
+#footer-bottom {
+  #footer-info {
+    width: 100%;
+    .rk-copyright {
+      float: left;
+    }
+    .reach-branding{
+      float: right;
+      a:before {
         content: url('images/reach-favicon.png');
         padding-right: 4px;
+      }
     }
   }
 }

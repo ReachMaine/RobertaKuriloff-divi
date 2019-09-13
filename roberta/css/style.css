@@ -14,6 +14,10 @@
   background-size: cover;
   height: 80px;
   z-index: auto; }
+  #top-header .et-social-icons {
+    margin-top: 10px; }
+    #top-header .et-social-icons .et-social-icon a {
+      font-size: 22px; }
 
 #main-header {
   border-top: 2px solid #b4975a;
@@ -46,11 +50,18 @@
   #main-content .et_pb_widget_area_left {
     border-right: 0px; }
 
-#footer-bottom .et-social-icons li.reach-logo a {
-  font-size: 1em; }
-#footer-bottom .et-social-icons li.reach-logo a:before {
-  content: url("images/reach-favicon.png");
-  padding-right: 4px; }
+#main-footer #et-footer-nav .bottom-nav {
+  text-align: center; }
+
+#footer-bottom #footer-info {
+  width: 100%; }
+  #footer-bottom #footer-info .rk-copyright {
+    float: left; }
+  #footer-bottom #footer-info .reach-branding {
+    float: right; }
+    #footer-bottom #footer-info .reach-branding a:before {
+      content: url("images/reach-favicon.png");
+      padding-right: 4px; }
 
 /* styling for blog posts */
 @media only screen and (min-width: 981px) {
@@ -95,6 +106,9 @@
 @media all and (max-width: 1099px) and (min-width: 981px) {
   .rk-home-bio-pic {
     margin-left: -130px; } }
+@media all and (min-width: 981px) {
+  #main-content .container:before {
+    background-color: rgba(178, 178, 178, 0.7); } }
 @media all and (max-width: 980px) {
   .reach-row-stackorder {
     display: -webkit-box;
