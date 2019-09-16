@@ -53,8 +53,10 @@
 
 						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
 							truncate_post( 270 );
+							echo '<p><a href="' . get_permalink() . '" class="more-link '.$read_more_button_style.'-button">'.__('Read More','oshin').'</a></p>';
 						} else {
 							the_content();
+
 						}
 					?>
 				<?php endif; ?>

@@ -15,10 +15,10 @@
 				            	break;
 				        }
 						break; */
-						case 'oshin': {
+						case 'Divi': {
 							switch ( $translated_text ) {
-									 case 'Category: ' : // remove Category: from front of blog archives.
-											 $translated_text =  '';
+									 case 'Submit a Comment' : // remove Category: from front of blog archives.
+											 $translated_text =  'Please Share.';
 											 break;
 							 }
 						} // end ohin
