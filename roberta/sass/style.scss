@@ -91,8 +91,15 @@
 
 }
 #comment-wrap {
+  background-color: white;
+  border: 2px solid $rk-mustard;
+  padding: 30px;
+  border-radius: 10px;
   .comment-section {
-    border-top: 1px solid $rk-divider;
+    //border-top: 1px solid $rk-divider;
+  }
+  .comment-respond {
+    padding-top: 0px;
   }
   .comment-form {
     #submit { // style submit button to be be similar to other buttons.

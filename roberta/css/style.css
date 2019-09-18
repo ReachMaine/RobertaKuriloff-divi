@@ -58,14 +58,19 @@
   letter-spacing: 1px;
   line-height: 2em; }
 
-#comment-wrap .comment-section {
-  border-top: 1px solid #c5c5c2; }
-#comment-wrap .comment-form #submit {
-  background-color: #0890a6;
-  text-transform: uppercase;
-  color: white; }
-#comment-wrap .comment-form #submit:hover {
-  background-color: #6d2d83 !important; }
+#comment-wrap {
+  background-color: white;
+  border: 2px solid #b4975a;
+  padding: 30px;
+  border-radius: 10px; }
+  #comment-wrap .comment-respond {
+    padding-top: 0px; }
+  #comment-wrap .comment-form #submit {
+    background-color: #0890a6;
+    text-transform: uppercase;
+    color: white; }
+  #comment-wrap .comment-form #submit:hover {
+    background-color: #6d2d83 !important; }
 
 #main-footer #et-footer-nav .bottom-nav {
   text-align: center; }

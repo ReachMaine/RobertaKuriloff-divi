@@ -21,7 +21,7 @@
 											 $translated_text =  'Please Share.';
 											 break;
 							 }
-						} // end ohin
+						} // end  Divi
 					default:
 						/* switch ( $translated_text ) {
 				            case 'Category' :
