@@ -65,12 +65,14 @@
   border-radius: 10px; }
   #comment-wrap .comment-respond {
     padding-top: 0px; }
-  #comment-wrap .comment-form #submit {
-    background-color: #0890a6;
-    text-transform: uppercase;
-    color: white; }
-  #comment-wrap .comment-form #submit:hover {
-    background-color: #6d2d83 !important; }
+  #comment-wrap .comment-form {
+    padding-bottom: 0px; }
+    #comment-wrap .comment-form #submit {
+      background-color: #0890a6;
+      text-transform: uppercase;
+      color: white; }
+    #comment-wrap .comment-form #submit:hover {
+      background-color: #6d2d83 !important; }
 
 #main-footer #et-footer-nav .bottom-nav {
   text-align: center; }
